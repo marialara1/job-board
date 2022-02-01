@@ -9,6 +9,14 @@ En este projecto se pretende crear una página web de ofertas de empleo, donde l
 <!-- 
     Aquí van los requisitos o queda claro con el objetivo? 
 -->
+## **Promagramas utilizados**
+El proyecto se ha construido con los siguientes programas:
+- Para el diseño: 
+  - <a href="https://www.figma.com/">Figma: diseño de wireframes.</a>
+  - <a href="https://www.adobe.com/products/illustrator.html">Illustrator</a>: diseño de logotipo e iconos.
+- Para el desarrollo: 
+  - <a href="https://code.visualstudio.com/">Visual Studio Code</a>: editor de código fuente.
+  - <a href="https://prepros.io/">Prepos: compilador de archivos.</a>
 
 ## **Instalación**
 
@@ -70,6 +78,7 @@ Los archivos scss son los encargados de aportar los estilos necesarios a los ele
   - main.sass
 
 El archivo main.sass nos indica el path de los elementos así como su nombre. Todos los archivos sass tienen una etiqueta para facilitar su localización mediante la búsqueda de nuestro editor (Cmd/Ctrl + f) y acceder a ellos fácilmente.
+
 
 ### **Variables**
 
