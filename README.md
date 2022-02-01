@@ -5,11 +5,12 @@
 En este projecto se pretende crear una página web de ofertas de empleo, donde los usuarios puedan tanto colgar las ofertas como acceder a las ya publicadas o postularse como candidatos.
 
 ## **Requisitos**
+### **Instalación**
+Puedes clonar el respositorio o descargarlo como un zip.
+### **Contribuir**
+Puedes crear un pull request al proyecto.
 
-<!-- 
-    Aquí van los requisitos o queda claro con el objetivo? 
--->
-## **Promagramas utilizados**
+## **Programas utilizados**
 El proyecto se ha construido con los siguientes programas:
 - Para el diseño: 
   - <a href="https://www.figma.com/">Figma</a>: diseño de wireframes.
