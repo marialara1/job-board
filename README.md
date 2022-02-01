@@ -12,11 +12,11 @@ En este projecto se pretende crear una página web de ofertas de empleo, donde l
 ## **Promagramas utilizados**
 El proyecto se ha construido con los siguientes programas:
 - Para el diseño: 
-  - <a href="https://www.figma.com/">Figma: diseño de wireframes.</a>
+  - <a href="https://www.figma.com/">Figma</a>: diseño de wireframes.
   - <a href="https://www.adobe.com/products/illustrator.html">Illustrator</a>: diseño de logotipo e iconos.
 - Para el desarrollo: 
   - <a href="https://code.visualstudio.com/">Visual Studio Code</a>: editor de código fuente.
-  - <a href="https://prepros.io/">Prepos: compilador de archivos.</a>
+  - <a href="https://prepros.io/">Prepos</a>: compilador de archivos.
 
 ## **Instalación**
 
