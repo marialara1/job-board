@@ -19,10 +19,6 @@ El proyecto se ha construido con los siguientes programas:
   - <a href="https://code.visualstudio.com/">Visual Studio Code</a>: editor de código fuente.
   - <a href="https://prepros.io/">Prepos</a>: compilador de archivos.
 
-## **Instalación**
-
-Es necesario tener instalado un preprocesador.
-
 ## **Nomenclatura**
 
 ### **Clases**
@@ -59,24 +55,27 @@ Los archivos scss son los encargados de aportar los estilos necesarios a los ele
 <!-- Pendiente de revisión -->
 
 - sass/
+  - style.scss
   - utilities/
-    - _variables.sass
-    - _functions.sass
-    - _mixins.sass
+    - _variables.scss
+    - _functions.scss
+    - _mixins.scss
   - style/
     - _typo.sass
-  - components/
-    - _buttons.sass
-    - _tags.sass
+  - htmlelements/
+    - _buttons.scss
+    - _tags.scss
   - estructura/
-    - grid.sass
-  - navegación/
-    - _home.sass
+    - grid.scss
+  - layout/
+    - _main.sass
     - _header.sass
     - _cards.sass
     - _newsletter.scss
+    - _navigation.scss
     - _footer.scss
-  - main.sass
+  - site/
+    - _site.scss
 
 El archivo main.sass nos indica el path de los elementos así como su nombre. Todos los archivos sass tienen una etiqueta para facilitar su localización mediante la búsqueda de nuestro editor (Cmd/Ctrl + f) y acceder a ellos fácilmente.
 
