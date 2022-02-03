@@ -1,8 +1,8 @@
-# **Projecto ESAT JOBS**
+# **Proyecto ESAT JOBS**
 
 ## **Objetivo**
 
-En este projecto se pretende crear una página web de ofertas de empleo, donde los usuarios puedan tanto colgar las ofertas como acceder a las ya publicadas o postularse como candidatos.
+En este proyecto se pretende crear una página web de ofertas de empleo. Los usuarios puedan colgar las ofertas, acceder a las ya publicadas o postularse como candidatos.
 
 ## **Requisitos**
 ### **Instalación**
@@ -65,7 +65,7 @@ Los archivos scss son los encargados de aportar los estilos necesarios a los ele
   - htmlelements/
     - _buttons.scss
     - _tags.scss
-  - estructura/
+  - structure/
     - grid.scss
   - layout/
     - _main.sass
