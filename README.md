@@ -43,8 +43,17 @@ Para las etiquetas en los archivos sass se emplea la nomenclatura $NOMBRE, por e
 - $CARDS
 
 ## **Estructura del respositorio del proyecto**
+Para nuestro proyecto aplicaremos la metodología de ramas de Gitflow, basada en cinco palabras clave, estas determinaran la estructura de nuestro repositorio.
 
-<!-- Estructura del repositorio -->
+En primer lugar, tenderemos la rama principal llamada **Master**, donde está el código definitivo. (Es aconsejable no trabajar sobre esta rama.)
+
+La segunda rama mas importante de nuestro repositorio será la **Develop**, donde se guardan las nuevas funcionalidades del proyecto. (Es recomendable no hacer commits directamente sobre ella, excepto cambios insignificantes como texto.)
+
+Para el desarrollo de las nuevas funcionalidades crearemos una rama nueva que salga de la nombrada anteriormente, y la llamaremos **Feature**. Al finalizar la nueva funcionalidad la mezclamos con la rama Develop para que los cambios queden allí guardados. (Una vez mezclada estas ramas, se puede borrar la Feature.)
+
+Es importante tener una rama llamada **Hotfix**, se encarga de solucionar los incidentes. (Esta rama debe ser generada a partir de la Master.)
+
+Por últimos tendremos la rama **Releaes**, se utiliza para la entrega a producción o ambiente real. En ella se harán las pruebas para el cliente. (Una vez terminada la prueba si no tiene ningún fallo se mezcla con la rama Master.)
 
 ## **SCSS**
 
