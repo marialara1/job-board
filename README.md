@@ -61,8 +61,6 @@ Los archivos scss son los encargados de aportar los estilos necesarios a los ele
 
 ### **Estructura del repositorio scss/**
 
-<!-- Pendiente de revisión -->
-
 - sass/
   - style.scss
   - utilities/
@@ -91,10 +89,26 @@ El archivo main.sass nos indica el path de los elementos así como su nombre. To
 
 ### **Variables**
 
+<!-- Aquí hay que explicar como se van a usar las variables y como se van a llamar, no creo que haya que ponerlas todas aquí si no algun ejemplo que sea ejemplo de uso y se vea clara la nomenclatura -->
+
 #### **Espaciado**
+
+$space-unit: 6px;
 
 #### **Color**
 
+$color-white: #FFFFFF;
+$color-black: #121212;
+$color-grey: #E8E8E8;
+$color-orange-esat: #EF7808;
+$color-sec-violet: #7408EF;
+$color-sec-turquoise: #08EFE0;
+
 #### **Fuentes**
+
+$font-family-main: 'Work Sans', sans-serif;
+$font-family-sec: 'Poppins', sans-serif;
+
+$font-size-title:
 
 ## **Brands**
