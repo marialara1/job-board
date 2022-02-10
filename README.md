@@ -2,6 +2,7 @@
 
 ## **Objetivo**
 
+
 En este proyecto se pretende crear una página web de ofertas de empleo. Los usuarios puedan colgar las ofertas, acceder a las ya publicadas o postularse como candidatos.
 
 ## **Requisitos**
