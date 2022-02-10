@@ -100,12 +100,12 @@ $space-unit: 6px;
 
 #### **Color**
 
-$color-white: #FFFFFF;
-$color-black: #121212;
-$color-grey: #E8E8E8;
-$color-orange-esat: #EF7808;
-$color-sec-violet: #7408EF;
-$color-sec-turquoise: #08EFE0;
+$color-white:
+$color-black:
+$color-grey:
+$color-sec-orange-esat:
+$color-main-violet:
+$color-sec-turquoise:
 
 #### **Fuentes**
 
@@ -114,4 +114,3 @@ $font-family-sec: 'Poppins', sans-serif;
 
 $font-size-title:
 
-## **Brands**
