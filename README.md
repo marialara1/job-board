@@ -46,17 +46,17 @@ Para la localización rápida de archivos sass emplearemos etiquetas en texto co
 
 Para nuestro proyecto aplicaremos la metodología de ramas de Gitflow, basada en cinco palabras clave, estas determinaran la estructura de nuestro repositorio.
 
-En primer lugar, tenderemos la rama principal llamada **Main**, donde está el código definitivo. No se debe trabajar directamente sobre ella.
+En primer lugar, tenderemos la rama principal llamada **main**, donde está el código definitivo. No se debe trabajar directamente sobre ella.
 
-La segunda rama mas importante de nuestro repositorio será la **Develop**, donde se guardan las nuevas funcionalidades del proyecto. (No hacer commits directamente sobre ella, excepto cambios insignificantes como texto.)
+La segunda rama mas importante de nuestro repositorio será la **develop**, donde se guardan las nuevas funcionalidades del proyecto. (No hacer commits directamente sobre ella, excepto cambios insignificantes como texto.)
 
-Para el desarrollo de las nuevas funcionalidades crearemos una rama nueva, para cada funcionalidad, que salga de la nombrada anteriormente, y la llamaremos **Feature/funcionalidad**. Al finalizar la nueva funcionalidad la mezclamos con la rama Develop para que los cambios queden allí guardados. (Una vez mezclada estas ramas, se puede borrar la Feature.)
+Para el desarrollo de las nuevas funcionalidades crearemos una rama nueva, para cada funcionalidad, que salga de la nombrada anteriormente, y la llamaremos **feature/funcionalidad**. Al finalizar la nueva funcionalidad la mezclamos con la rama Develop para que los cambios queden allí guardados. (Una vez mezclada estas ramas, se puede borrar la Feature.)
 
-Es importante tener una rama llamada **Hotfix**, se encarga de solucionar los incidentes. (Esta rama debe ser generada a partir de la Main.)
+Es importante tener una rama llamada **hotfix**, se encarga de solucionar los incidentes. (Esta rama debe ser generada a partir de la Main.)
 
-Al implementar las features en la develop, pueden surgir errores. Para solucionar estos errores se crea una rama **Hotfix-error** a partir de la develop, en la que se soluciona el error y se realiza un pull request a la rama develop.
+Al implementar las features en la develop, pueden surgir errores. Para solucionar estos errores se crea una rama **hotfix-error** a partir de la develop, en la que se soluciona el error y se realiza un pull request a la rama develop.
 
-Por últimos tendremos la rama **Releaes**, se utiliza para la entrega a producción o ambiente real. En ella se harán las pruebas para el cliente. (Una vez terminada la prueba si no tiene ningún fallo se mezcla con la rama Main.)
+Por últimos tendremos la rama **releaes**, se utiliza para la entrega a producción o ambiente real. En ella se harán las pruebas para el cliente. (Una vez terminada la prueba si no tiene ningún fallo se mezcla con la rama Main.)
 
 ## **SCSS**
 
