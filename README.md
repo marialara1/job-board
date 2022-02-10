@@ -6,9 +6,9 @@ En este proyecto se pretende crear una página web de ofertas de empleo. Los usu
 
 ## **Requisitos**
 ### **Instalación**
-Puedes clonar el respositorio o descargarlo como un zip.
+Debes clonar el repositorio del proyecto.
 ### **Contribuir**
-Puedes crear un pull request al proyecto.
+Debes crear un pull request al proyecto.
 
 ## **Programas utilizados**
 El proyecto se ha construido con los siguientes programas:
@@ -37,23 +37,26 @@ La convención de nombre para las clases de los elementos sigue el patrón BEM:
 
 ### **Etiquetas archivos sass**
 
-Para las etiquetas en los archivos sass se emplea la nomenclatura $NOMBRE, por ejemplo:
+Para la localización rápida de archivos sass emplearemos etiquetas en texto comentado, por ejemplo:
 
-- $VARIABLES
-- $CARDS
+- //-------$VARIABLES
+- //-------$CARDS
 
 ## **Estructura del respositorio del proyecto**
+
 Para nuestro proyecto aplicaremos la metodología de ramas de Gitflow, basada en cinco palabras clave, estas determinaran la estructura de nuestro repositorio.
 
-En primer lugar, tenderemos la rama principal llamada **Master**, donde está el código definitivo. (Es aconsejable no trabajar sobre esta rama.)
+En primer lugar, tenderemos la rama principal llamada **Main**, donde está el código definitivo. No se debe trabajar directamente sobre ella.
 
 La segunda rama mas importante de nuestro repositorio será la **Develop**, donde se guardan las nuevas funcionalidades del proyecto. (Es recomendable no hacer commits directamente sobre ella, excepto cambios insignificantes como texto.)
 
-Para el desarrollo de las nuevas funcionalidades crearemos una rama nueva que salga de la nombrada anteriormente, y la llamaremos **Feature**. Al finalizar la nueva funcionalidad la mezclamos con la rama Develop para que los cambios queden allí guardados. (Una vez mezclada estas ramas, se puede borrar la Feature.)
+Para el desarrollo de las nuevas funcionalidades crearemos una rama nueva, para cada funcionalidad, que salga de la nombrada anteriormente, y la llamaremos **Feature-funcionalidad**. Al finalizar la nueva funcionalidad la mezclamos con la rama Develop para que los cambios queden allí guardados. (Una vez mezclada estas ramas, se puede borrar la Feature.)
 
-Es importante tener una rama llamada **Hotfix**, se encarga de solucionar los incidentes. (Esta rama debe ser generada a partir de la Master.)
+Es importante tener una rama llamada **Hotfix**, se encarga de solucionar los incidentes. (Esta rama debe ser generada a partir de la Main.)
 
-Por últimos tendremos la rama **Releaes**, se utiliza para la entrega a producción o ambiente real. En ella se harán las pruebas para el cliente. (Una vez terminada la prueba si no tiene ningún fallo se mezcla con la rama Master.)
+Al implementar las features en la develop, pueden surgir errores. Para solucionar estos errores se crea una rama **Hotfix-error** a partir de la develop, en la que se soluciona el error y se realiza un pull request a la rama develop.
+
+Por últimos tendremos la rama **Releaes**, se utiliza para la entrega a producción o ambiente real. En ella se harán las pruebas para el cliente. (Una vez terminada la prueba si no tiene ningún fallo se mezcla con la rama Main.)
 
 ## **SCSS**
 
