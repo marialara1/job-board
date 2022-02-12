@@ -93,25 +93,35 @@ El archivo main.sass nos indica el path de los elementos así como su nombre. To
 
 ### **Variables**
 
-<!-- Aquí hay que explicar como se van a usar las variables y como se van a llamar, no creo que haya que ponerlas todas aquí si no algun ejemplo que sea ejemplo de uso y se vea clara la nomenclatura -->
+Las variables que se emplearán en este proyecto se encuentra en el archivo sass/utilites/_variables.scss. Estas variables globales definen los colores, el espaciado y las tipografías de todo el documento.
 
 #### **Espaciado**
+
+Para el espaciado la unidad base será 6px, de la cual se emplearán sus múltiplos en función del espaciado que necesitemos. 
+Para las tags del proyecto usaremos 12px vertical y 24px horizontales para las resoluciones pequeñas y el doble para las resoluciones grandes. Las tarjetas tendrán 24px horizontal en todas las resoluciones.
 
 $space-unit: 6px;
 
 #### **Color**
 
-$color-white:
-$color-black:
-$color-grey:
-$color-sec-orange-esat:
-$color-main-violet:
-$color-sec-turquoise:
+La paleta de colores a utilizar en este proyecto estará declarada de la siguiente manera.
+
+$color-white
+$color-black
+$color-grey
+$color-main-violet
+$color-sec-orange-esat
+$color-sec-turquoise
 
 #### **Fuentes**
+
+En cuanto a las fuentes, se han elegido estás dos. Poppins se empleará para títulos y subtítulos. En cuanto a Work Sans se usará para el cuerpo del documento. De la misma manera se definirá el tamaño de fuente tanto de títulos como del cuerpo en función de la resolución de la pantalla.
 
 $font-family-main: 'Work Sans', sans-serif;
 $font-family-sec: 'Poppins', sans-serif;
 
-$font-size-title:
+$font-size-title-mobile
+$font-size-title-deskopt
+$font-size-body-mobile
+$font-size-body-deskopt
 
