@@ -43,6 +43,10 @@ Para la localización rápida de archivos sass emplearemos etiquetas en texto co
 - //-------$VARIABLES
 - //-------$CARDS
 
+### **camelCase en JavaScript**
+
+
+
 ## **Estructura del respositorio del proyecto**
 
 Para nuestro proyecto aplicaremos la metodología de ramas de Gitflow, basada en cinco palabras clave, estas determinaran la estructura de nuestro repositorio.
@@ -125,3 +129,7 @@ $font-size-title-deskopt
 $font-size-body-mobile
 $font-size-body-deskopt
 
+
+### **Recursos multimedia**
+
+Los recursos multimedia a emplear en el documento web, se guardarán en la carpeta resources/. Existen dos subcarpetas, una para los iconos resources/icons/ y otra para las imágenes resources/img/. Las imágenes deben de estar optimizadas y no deben superar un peso de 2MB.
