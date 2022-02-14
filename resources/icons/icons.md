@@ -1,0 +1,1 @@
+# En esta carpeta van los iconos a usar en el proyecto
