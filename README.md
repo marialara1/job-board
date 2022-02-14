@@ -63,6 +63,11 @@ Al implementar las features en la develop, pueden surgir errores. Para soluciona
 
 Por últimos tendremos la rama **releaes**, se utiliza para la entrega a producción o ambiente real. En ella se harán las pruebas para el cliente. (Una vez terminada la prueba si no tiene ningún fallo se mezcla con la rama Main.)
 
+
+![ramas](https://user-images.githubusercontent.com/92877904/153928693-8aa5247e-470d-4f54-b365-163a4a15d1a1.jpg)
+
+
+
 ## **SCSS**
 
 Los archivos scss son los encargados de aportar los estilos necesarios a los elementos html, estos se encuentran organizados en la carpeta sass/.
