@@ -13,10 +13,10 @@ Debes crear un pull request al proyecto.
 
 ## **Programas utilizados**
 El proyecto se ha construido con los siguientes programas:
-- Para el diseño: 
+- Para el diseño:
   - <a href="https://www.figma.com/">Figma</a>: diseño de wireframes.
   - <a href="https://www.adobe.com/products/illustrator.html">Illustrator</a>: diseño de logotipo e iconos.
-- Para el desarrollo: 
+- Para el desarrollo:
   - <a href="https://code.visualstudio.com/">Visual Studio Code</a>: editor de código fuente.
   - <a href="https://prepros.io/">Prepos</a>: compilador de archivos.
 
@@ -53,7 +53,7 @@ Para nuestro proyecto aplicaremos la metodología de ramas de Gitflow, basada en
 
 En primer lugar, tenderemos la rama principal llamada **main**, donde está el código definitivo. No se debe trabajar directamente sobre ella.
 
-La segunda rama mas importante de nuestro repositorio será la **develop**, donde se guardan las nuevas funcionalidades del proyecto. (No hacer commits directamente sobre ella, excepto cambios insignificantes como texto.)
+La segunda rama mas importante de nuestro repositorio será la **develop**, donde se guardan las nuevas funcionalidades del proyecto. (No hacer commits directamente sobre ella.)
 
 Para el desarrollo de las nuevas funcionalidades crearemos una rama nueva, para cada funcionalidad, que salga de la nombrada anteriormente, y la llamaremos **feature/funcionalidad**. Al finalizar la nueva funcionalidad la mezclamos con la rama Develop para que los cambios queden allí guardados. (Una vez mezclada estas ramas, se puede borrar la Feature.)
 
@@ -101,7 +101,7 @@ Las variables que se emplearán en este proyecto se encuentra en el archivo sass
 
 #### **Espaciado**
 
-Para el espaciado la unidad base será 6px, de la cual se emplearán sus múltiplos en función del espaciado que necesitemos. 
+Para el espaciado la unidad base será 6px, de la cual se emplearán sus múltiplos en función del espaciado que necesitemos.
 Para las tags del proyecto usaremos 12px vertical y 24px horizontales para las resoluciones pequeñas y el doble para las resoluciones grandes. Las tarjetas tendrán 24px horizontal en todas las resoluciones.
 
 $space-unit: 6px;
